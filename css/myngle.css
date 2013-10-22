@@ -1,5 +1,5 @@
 .room {
-  background-color: #fc0;
+  background-color: #eee;
   background-size: cover;
   border: 0px solid #000;
   border-top-width: 0px;
@@ -43,9 +43,9 @@
   top: 30%;
 }
 #navigation li a {
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  border-radius: 8px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
   background-image: none;
   border: 1px solid #000;
   display: block;
@@ -57,10 +57,10 @@
 }
 #navigation li a.active {
   background-color: #000;
-  left: -1px;
-  padding-top: 15px;
+  left: -2px;
+  padding-top: 18px;
   position: relative;
-  width: 18px;
+  width: 20px;
 }
 #logo {
   bottom: 20px;
