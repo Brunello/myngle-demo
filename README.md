@@ -19,5 +19,5 @@
 * Active state is off-by-one when navigating to previous rooms from the
   navigation menu.
 
-* --Final slide should be fixed at bottom (should not be able to scroll past).--
+* ~~Final slide should be fixed at bottom (should not be able to scroll past).~~
 
