@@ -1,0 +1,70 @@
+.room {
+  background-color: #fc0;
+  background-size: cover;
+  border: 0px solid #000;
+  border-top-width: 0px;
+  height: 600px;
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+}
+.room > div {
+  height: 100%;
+  padding-top: 120px;
+  text-align: center;
+}
+.room > div > img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.room1 {background-image: url(../img/backgrounds/background-1.jpg)}
+.room2 {background-image: url(../img/backgrounds/background-2.jpg)}
+.room3 {background-image: url(../img/backgrounds/background-3.jpg)}
+.room4 {background-image: url(../img/backgrounds/background-4.jpg)}
+.room5 {background-image: url(../img/backgrounds/background-5.jpg)}
+.room6 {background-image: url(../img/backgrounds/background-6.jpg)}
+.room7 {background-image: url(../img/backgrounds/background-7.jpg)}
+
+#header {
+  background-color: #000;
+  left: 0px;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+}
+#navigation {
+  background-color: #fff;
+  left: 0px;
+  padding: 10px;
+  position: fixed;
+  top: 30%;
+}
+#navigation li a {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  background-image: none;
+  border: 1px solid #000;
+  display: block;
+  height: 0px;
+  margin: 1px;
+  overflow: hidden;
+  padding-top: 12px;
+  width: 15px;
+}
+#navigation li a.active {
+  background-color: #000;
+  left: -1px;
+  padding-top: 15px;
+  position: relative;
+  width: 18px;
+}
+#logo {
+  bottom: 20px;
+  left: 20px;
+  position: fixed;
+}
+a {color: #fff;}
