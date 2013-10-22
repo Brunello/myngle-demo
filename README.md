@@ -2,7 +2,7 @@
 
 1. Clone the repo onto the demo machine:
 
-      git clone git@github.com:Brunello/myngle-demo.git // Puts the demo site into new /myngle-demo directory
+       git clone git@github.com:Brunello/myngle-demo.git // Puts the demo site into new /myngle-demo directory
 
   Or choose your own directory name:
 
